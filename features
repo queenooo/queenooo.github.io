@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<script src="/cdn-cgi/apps/head/t3zzN3W-vLF9AwiBv7OqyIkfsCU.js"></script><link href="/favicon.ico" rel="icon" />
+<link href="/favicon.ico" rel="shortcut icon" />
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:900,400" rel="stylesheet" type="text/css" />
+<link href="/static/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/ekko-lightbox.min.css" rel="stylesheet" type="text/css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="/static/js/ekko-lightbox.min.js"></script>
+<script src="/static/js/main.js"></script>
+<title>GameSense</title>
+</head>
+<body>
+<nav class="gs-navbar">
+<div class="gs-nav-container">
+<ul>
+<li><a href="/"><i class="fa fa-home"></i></a></li>
+<li class="active"><a href="/features">FEATURES</a></li>
+<li><a href="/forums/">PURCHASE</a></li>
+<li><a href="/forums/">FORUMS</a></li>
+</ul>
+<div class="navbar-right">
+<div id="client">
+<a href="forums/login.php"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Sign in</a>
+</div>
+</div>
+</div>
+</nav>
+<div class="divide"></div>
+<div class="container" id="jumbo-container">
+<div class="jumbotron" id="jumbo">
+<div class="row">
+<a href="/static/img/screen1.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Remove scope, glow, disable post processing" class="col-sm-4">
+<img src="/static/img/screen1.jpg" class="img-responsive thumbnail">
+</a>
+<a href="/static/img/screen2.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Visuals" class="col-sm-4">
+<img src="/static/img/screen2.jpg" class="img-responsive thumbnail">
+</a>
+<a href="/static/img/screen3.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Skin changer" class="col-sm-4">
+<img src="/static/img/screen3.jpg" class="img-responsive thumbnail">
+</a>
+</div>
+<div id="features-tabs">
+<ul class="nav nav-tabs">
+<li class="active"><a href="#rage" data-toggle="tab">RAGE</a></li>
+<li><a href="#legit" data-toggle="tab">LEGIT</a></li>
+<li><a href="#visuals" data-toggle="tab">VISUALS</a></li>
+<li><a href="#skins" data-toggle="tab">SKINS</a></li>
+<li><a href="#misc" data-toggle="tab">MISC</a></li>
+<li><a href="#players" data-toggle="tab">PLAYERS</a></li>
+</ul>
+</div>
+<div id="features-tabs-content" class="tab-content">
+<div class="tab-pane fade active in" id="rage">
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Aimbot</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Automatic shoot<span><a data-toggle="tooltip" title="Automatically fires your weapon upon finding a target."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Automatic penetrate<span><a data-toggle="tooltip" title="Penetrate non-visible enemies through walls."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Silent aim<span><a data-toggle="tooltip" title="Your crosshair will not move on your screen while shooting a target."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Fully automatic<span><a data-toggle="tooltip" title="Shoot on sight without pressing the aimbot hotkey."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Minimum hit chance<span><a data-toggle="tooltip" title="Configurable hit chance for matchmaking."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Limit FOV<span><a data-toggle="tooltip" title="Ensure you don't accidentally aimbot someone behind you with a lower FOV."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Target</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Target lock<span><a data-toggle="tooltip" title="Lock onto the target closest to your crosshair."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Smart select<span><a data-toggle="tooltip" title="Select the best target."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Targeted hitbox<span><a data-toggle="tooltip" title="Change which hitbox you want the aimbot to shoot."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Scan hitboxes<span><a data-toggle="tooltip" title="Scan all hitboxes instead of just the targeted hitbox."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Minimum damage<span><a data-toggle="tooltip" title="Only shoot if it will do X damage."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Friendly fire<span><a data-toggle="tooltip" title="Shoot at teammates in addition to enemies."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-2"></div>
+</div>
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Other</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Remove spread<span><a data-toggle="tooltip" title="Remove bullet spread."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Remove recoil<span><a data-toggle="tooltip" title="Remove bullet recoil."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Quick stop<span><a data-toggle="tooltip" title="Quickly stop upon finding a valid target."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Quick stop + duck<span><a data-toggle="tooltip" title="Quickly stop and duck upon finding a target."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Anti-aim correction<span><a data-toggle="tooltip" title="Playing against another hacker? Fix their fake lag."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4">
+ <ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Anti-aim</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Fake pitch<span><a data-toggle="tooltip" title="Fake your X angle."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Fake yaw<span><a data-toggle="tooltip" title="Fake your Y angle."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Fake edge<span><a data-toggle="tooltip" title="Adjust anti-aim depending on the nearest wall."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-2"></div>
+</div>
+</div>
+<div class="tab-pane fade" id="legit">
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Aimbot</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Low FOV<span><a data-toggle="tooltip" title="Ensure you don't accidentally aimbot someone behind you with a lower FOV"><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Smooth<span><a data-toggle="tooltip" title="Human-like aim smoothing."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Recoil control<span><a data-toggle="tooltip" title="Automatically control your recoil."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> After burst<span><a data-toggle="tooltip" title="Fire X amount of bullets after killing the enemy."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Hitbox selection<span><a data-toggle="tooltip" title="Select any hitboxes you wish to target."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Humanize<span><a data-toggle="tooltip" title="Humanize the aimbot."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Randomize<span><a data-toggle="tooltip" title="Randomize hitbox selection."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Max speed<span><a data-toggle="tooltip" title="Only fire if you are moving a certain speed."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Triggerbot</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Hit chance percentage<span><a data-toggle="tooltip" title="Configurable hit chance for matchmaking."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Scale hitboxes<span><a data-toggle="tooltip" title="Scale the hitboxes down."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> After burst<span><a data-toggle="tooltip" title="Fire X amount of bullets after killing the enemy."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Minimum damage<span><a data-toggle="tooltip" title="Only shoot if it will do X damage."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Delay<span><a data-toggle="tooltip" title="Configurable delay between shots."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-2"></div>
+</div>
+</div>
+<div class="tab-pane fade" id="visuals">
+<div class="row">
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Player ESP</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Show teammates<span><a data-toggle="tooltip" title="Show teammates in addition to enemies."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Chams<span><a data-toggle="tooltip" title="Change the player's model color."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Chams through walls<span><a data-toggle="tooltip" title="Show the chams through walls."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Bounding box<span><a data-toggle="tooltip" title="Draw a box around enemies."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Health bar<span><a data-toggle="tooltip" title="Draw a health bar beside enemies."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Player name<span><a data-toggle="tooltip" title="Draw the player's name."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Active weapon<span><a data-toggle="tooltip" title="Draw the player's active weapon icon."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Distance<span><a data-toggle="tooltip" title="Show the distance between you and the player."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Line of sight<span><a data-toggle="tooltip" title="Visual display of where the enemy is looking."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Glow<span><a data-toggle="tooltip" title="Outline glow around enemies."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> 3D hitbox<span><a data-toggle="tooltip" title="Draw a box around the targeted hitbox."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Money<span><a data-toggle="tooltip" title="Enemy's money is shown on the scoreboard."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Other ESP</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Radar<span><a data-toggle="tooltip" title="Show enemies on radar at all times."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Dropped weapons<span><a data-toggle="tooltip" title="Show indicators for dropped weapons."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Live grenades<span><a data-toggle="tooltip" title="Show indicators for live grenades."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Recoil display<span><a data-toggle="tooltip" title="Become a recoil control expert."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Crosshair<span><a data-toggle="tooltip" title="Become a no-scope expert."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Bomb timer<span><a data-toggle="tooltip" title="Show the time remaining until the planted bomb explodes."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Grenade projection<span><a data-toggle="tooltip" title="Show the path which the grenade will take if thrown."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Outline chickens<span><a data-toggle="tooltip" title="Draw a box around chickens."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Spectator warning<span><a data-toggle="tooltip" title="Show a list of the people spectating you."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Effects</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Remove visual recoil<span><a data-toggle="tooltip" title="Remove recoil shake."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Remove smoke<span><a data-toggle="tooltip" title="Disable smoke grenades."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Remove flash<span><a data-toggle="tooltip" title="Disable flashbang blindness and deafness."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Remove hands<span><a data-toggle="tooltip" title="Disable hand models."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Remove fog<span><a data-toggle="tooltip" title="Disable map fog."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Transparent walls<span><a data-toggle="tooltip" title="Configurable wall alpha."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Fullbright<span><a data-toggle="tooltip" title="Remove shadows from the map."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Night mode<span><a data-toggle="tooltip" title="No more daytime."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Remove scope<span><a data-toggle="tooltip" title="Remove the black scope effect."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Disable post processing<span><a data-toggle="tooltip" title="Help your FPS."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="skins">
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Skins</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Any skin on any weapon<span><a data-toggle="tooltip" title="Dragon lore AK47? That's fine."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Knife changer<span><a data-toggle="tooltip" title="Get that StatTrak Karambit fade."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> StatTrak<span><a data-toggle="tooltip" title="StatTrak does more damage, everyone knows that."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Minimal wear and up<span><a data-toggle="tooltip" title="Boost your skin's quality."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4"></div>
+</div>
+</div>
+<div class="tab-pane fade" id="misc">
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Misc</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Bunny hop<span><a data-toggle="tooltip" title="Move with style."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Automatic strafe<span><a data-toggle="tooltip" title="Accelerate your bunny hopping."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Automatic knife<span><a data-toggle="tooltip" title="Never lose a knife battle."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Automatic pistol<span><a data-toggle="tooltip" title="Hold MOUSE1 to spam your pistol."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Fake lag<span><a data-toggle="tooltip" title="Fake connection lag."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Jump at edge<span><a data-toggle="tooltip" title="Make that nuke silo jump every time."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Name stealer<span><a data-toggle="tooltip" title="Configurable name stealer."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Slow motion<span><a data-toggle="tooltip" title="Float in the air."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Rank revealer<span><a data-toggle="tooltip" title="Show MM ranks at all times."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Auto accept MM<span><a data-toggle="tooltip" title="Don't worry about missing your queue."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Get win count<span><a data-toggle="tooltip" title="Show the # of MM wins each player has."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Anti-untrusted<span><a data-toggle="tooltip" title="Keep your account safe."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4"></div>
+</div>
+</div>
+<div class="tab-pane fade" id="players">
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item list-group-item-success"><h3>Player list</h3></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Whitelist<span><a data-toggle="tooltip" title="Don't kill your friends."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Force custom yaw<span><a data-toggle="tooltip" title="Fix their anti-aim."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Anti-aim fixes<span><a data-toggle="tooltip" title="Various anti-aim fixes."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Anti-aim resolver<span><a data-toggle="tooltip" title="Resolve their anti-aim."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-info"><i class="fa fa-angle-double-right"></i> Force custom hitbox<span><a data-toggle="tooltip" title="Override specific player's targeted hitbox."><i class="fa fa-question"></i></a></span></li>
+<li class="list-group-item list-group-item-warning"><i class="fa fa-angle-double-right"></i> Fake down fix<span><a data-toggle="tooltip" title="Fix magic pitch and fake down."><i class="fa fa-question"></i></a></span></li>
+</ul>
+</div>
+<div class="col-md-4"></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6">
+<a href="/forums/" class="btn btn-default btn-lg btn-block">Seen enough? Click here to buy now</a>
+</div>
+<div class="col-md-3"></div>
+</div>
+</div>
+</div>
+<div class="container">
+<div id="footer">
+<p>GameSense 2017</p>
+</div>
+</div>
+</body>
+</html>
